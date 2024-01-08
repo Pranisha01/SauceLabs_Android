@@ -1,5 +1,5 @@
 # SauceLabs_Android
-SauceLabs Integration for android testing
+SauceLabs Integration for Android Testing
 
 # OverView:
 This project integrates Sauce Labs for automated testing, allowing for seamless cross-browsing and cross-platform testing of mobile applications.
@@ -13,8 +13,8 @@ Android.SauceLabs.Mobile.Sample.app.2.2.0.apk
 # Quick Start Guide
 1. Create a new Java/Maven project using IntelliJ IDE.
 2. Add the required dependencies to the pom.xml file.
-3. Create a new Package TestPackage under src/test/java and create a new Java Class TestClass under that package.
-4. Create the following file src/test/resources/testDataFiles/Android.SauceLabs.Mobile.Sample.app.2.2.0.apk.
+3. Create a new test class under src/test/java and create a new Java Class under src/main/java .
+4. Save the application Android.SauceLabs.Mobile.Sample.app.2.2.0.apk file in src/test/resources/testDataFiles.
 5. Run your TestClass.java as a TestNG Test Class.
 6. The execution will open automatically in your default mobile application after the test run is completed.
 
